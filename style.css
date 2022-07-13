@@ -1,0 +1,707 @@
+
+*{
+    box-sizing: border-box;
+    
+}
+
+
+/* Header  */
+header {
+    width:100%;
+    height:3em;
+    border-bottom:1px solid #a2a8ba;
+    display:flex;
+    justify-content:space-between;
+}
+/* three lines on left in header */
+#threeLines{
+    display:flex;
+    flex-direction:column;
+    height:2em;
+    width:2em;
+    justify-content: space-around;
+    margin-top: .6em;
+    margin-left: 1.5em;
+}
+
+#threeLines>div{
+    height:.2em;
+    background-color:#005b96;
+    border-radius: 10px;
+}
+
+#smaller{
+    width:1.1em;
+}
+
+#name{
+    display:flex;
+    margin-right:6em;
+}
+
+#name>div{
+    margin-top:0.4em;
+    margin-right:0.4em;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    background-color:#f7ce6f;
+    color:white;
+    height:1.8em;
+    width:1.7em;
+    font-size:larger;
+}
+
+#name>p{
+    margin-top:1em;
+    color:#196ba0;
+    font-weight: bold;
+}
+
+/* Main with aside and section */
+main{
+    display:flex;
+    position:relative;
+    height: 90vh;
+
+}
+
+/* Aside */
+aside{
+    width:19%;
+    height:90vh;
+    margin-left:6em;
+    
+}
+
+/* Aside elements */
+aside>h3 {
+    margin:0;
+    margin-top:2em;
+    color:#07244f;
+    
+}
+
+aside>span{
+    color: #9497aa;
+}
+
+
+/* Second div with acc info */
+#accInfo{
+    display:flex;
+    align-items: center;
+    background-color:#f1fafe;
+    margin-top:.9em;
+    width:95%;
+    height:9%;
+    border-radius:10px;
+
+}
+
+#logo{
+    background-color:#f6ca65;
+    color:white;
+    font-size: larger;
+    border-radius:50%;
+    width:3em;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:3em;
+    margin-left:0.5em;
+    
+}
+#logo>p{
+    font-style: 150%;
+    font-size: larger;
+}
+
+#info{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left:1em;    
+}
+
+#info>p{
+    margin:0em;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+#info span{
+    color:#a2a8ba;
+}
+
+/*------------------------------------ Section----------------------------------------- */
+main>section{
+    height:auto;
+}
+
+/*----------------------------------- When clicked on Personal info */
+#explanationPersonal{
+    margin-top:2em;
+}
+
+.expl>div>p{
+    text-align: start;
+    background-color:#0db2f2;
+    padding:.5em;
+    padding-top: 1em;
+    width:90%;
+    border-radius:10px;
+    color: white;
+}
+.expl h6{
+    font-size: 100%;
+    margin-bottom: 0;
+}
+/* -----------------------------------When clicked on Credit card */
+#explanationCredit{
+    margin-top:2em;
+
+}
+#explanationCredit>div>p{
+    text-align: start;
+    background-color:#0db2f2;
+    color: white;
+    padding:1em;
+    width:90%;
+    border-radius:10px;
+    font-size: .9em;
+}
+.fourContainers{
+    width:90%;
+    height:2em;
+    margin-bottom:1em;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+}
+
+.blue {
+    background-color: #005b96;
+    color: white;
+    
+}
+/*----------------------------------- When clicked Payment plan */
+#explanationPaymentPlan{
+    margin-top:2em;
+}
+
+#explanationPaymentPlan>div>p{
+    text-align: start;
+    background-color:#0db2f2;
+    color: white;
+    padding:1em;
+    width:90%;
+    border-radius:10px;
+    font-size: .9em;
+}
+h6{
+    font-size: 100%;
+    margin-bottom: 0;
+}
+
+.fourContainers *{
+    margin-left: .7em;
+}
+#whiteCard{
+background-color: #1bc5bd;
+color: white;
+    
+}
+
+.fa-check {
+    background-color: #10a09a;
+    border-radius: 50%;
+    color: white;
+    width: 1.2em;
+    height: 1.2em;
+    text-align: center;
+}
+
+.fa-check{
+    position:relative;
+    left:3em;
+}
+.round{
+    width:1.2em;
+    height:1.2em;
+    border-radius: 50%;
+    background-color:#c6edff;
+    position: relative;
+    left:3em;
+}
+.first{
+    background-color: #005b96;
+    color:white;
+}
+
+.lastTwo{
+    background-color: #f1fafe;
+}
+
+
+/*------------------------------------------ Section---------------------------------------------- */
+section{
+    width:80%;
+    height:10em;
+
+}
+/* First div of icons */
+
+#icons{
+    display:flex;
+    justify-content: center;
+    margin-right:7em;
+    gap:3em;
+    height: 10em;
+    position:relative;
+    left:-8em;
+
+    
+}
+/* Divs with icons and paragraph */
+section>#icons> div {
+    margin-top: 7em;
+    color: grey;
+}
+
+/* Paragraphs inside icon divs */
+
+section>div div>p{
+    position:relative;
+    left:-1.5em;
+    font-size: small;
+}
+
+#billing{
+    position:relative;
+    left: -.4em;
+}
+
+#creditcarddetails{
+    position:relative;
+    left:-2em;
+}
+
+/* Hiddedn divs in section */
+
+.personalInfo {
+    display:flex;
+    flex-direction: column;
+    width: 80%;
+    height:30em;
+    margin-left:0em;
+    margin-top: 1em;
+    
+}
+.personalInfo>section{
+    display:flex;
+    justify-content: space-evenly;
+    height: 5em;
+}
+
+.personalInfo h5{
+    margin-bottom:.5em;
+}
+
+
+.personalInfo>section>div>input {
+    font-size: larger;
+    background-color: #f3f6f9;
+    width: 18em;
+    height: 2em;
+    border-radius:10px;
+    border:none;
+}
+
+#spams {
+    display:flex;
+    flex-direction: column;
+    position:relative;
+    top:1em;
+    left:1em;
+    color:grey;
+}
+
+/*---------------------- When you click on Credit and Info */
+
+.creditAndInfo{
+    width: 15em;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    top:2em; 
+    left:14em; 
+
+}
+.creditAndInfo input{
+    font-size: larger;
+    background-color: #f3f6f9;
+    width: 17em;
+    height: 2em;
+    border-radius:10px;
+    border:none;
+}
+
+/* All elements in this section */
+.creditAndInfo * {
+    margin:.1em;
+}
+
+/* Inputs */
+.creditAndInfo input{
+    margin-bottom: 1.2em;
+    
+}
+
+/* Second div */
+#creditLastTwo{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 20.5em;
+
+}
+#creditLastTwo input{
+    width:100%;
+}
+
+/* Two last inputs  */
+
+.small{
+    width:100%;
+}
+
+.inputDiv{
+    width:12em;
+}
+
+/* ----------------------------------When clicked one Payment plan in section */
+
+/* div (paymentPLan) */
+.paymentPlan{
+    width: 50em;
+    display: flex;
+    position:relative;
+    top:2.4em;
+    left:8em;
+    
+}
+
+/* all articles inside div (paymentPlan) */
+.paymentPlan>article{
+    width:10em;
+    height: 24em;
+    border-radius:10px;
+    float: left;
+    align-items: center;
+    background-color: #f1fafe;
+    margin-right: 1em;
+   
+
+}
+
+ /* every item in articles */
+ article *{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+/* icons in every article */
+article>.fa{
+    color: #0db2f2;
+    margin-bottom: 0em;
+    margin-top: .3em;
+    display: flex;
+    justify-content: center;
+}
+
+/* h3 in article,direct child */
+article>h3{
+    margin-top:0em;
+    margin-bottom: 0em;
+}
+
+/* div (pay) inside articles */
+.pay{
+    display:flex;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top: 0em;
+    justify-content: center;
+}
+
+
+/* spans in every div (pay) */
+.pay>span{
+    color:#d3d7e0;
+}
+
+.paymentPlan article p {
+    margin: .7em;
+}
+
+/*the green button in first article */
+#greenButton{
+    background-color:#1bc5bd;
+    color:white;
+    width:9em;
+    height:1.8em;
+    border:none;
+    border-radius:5px;
+    position:relative;
+    left:.5em;
+
+}
+
+/* icon inside button in first article */
+.inButton{
+    position:relative;
+    left:.5em;
+    background-color: #11a39d;
+}
+
+/* buttons in articles */
+.articleButtons{
+    width:9em;
+    background-color:#f1fafe;
+    height:2em;
+    position:relative;
+    left:.5em;
+    top:.4em;
+}
+
+/* empty div in other two articles */
+.empty{
+    height:2em;
+}
+
+/*---------------------------When clicked on Billing in section */
+
+.billingDiv{
+    background-color:#f1fafe;
+    width:50em;
+    height:15em;
+    position:relative;
+    top:2.5em;
+    border-radius:10px;
+}
+
+#billing-info *{
+    margin:0em;
+}
+
+#billing-info>p{
+   position:relative;
+   left:0em;
+   color:#888ca2;
+
+}
+
+#billing-info{
+   padding: 1em;
+
+}
+
+table{
+    width:47em;
+    height:9em;
+    position:relative;
+    top:1em;
+    border-collapse: collapse;
+
+}
+
+.left{
+   text-align: left;
+   padding-left:1em;
+}
+
+.center{
+    text-align: center;
+}
+
+.right{
+    text-align:right;
+    padding-right:1em;
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* terms, button and version on bottom */
+
+#terms{
+    position:absolute;
+    z-index: 10;
+    bottom:-2em;
+    color: #086099;
+}
+
+#version{
+    color: #086099;
+    position:absolute;
+    z-index: 2;
+    bottom:-2em;
+    right:5em;
+    width:7em;
+}
+
+#save{
+    width:7em;
+    height:1.7em;
+    z-index: 2;
+    background-color: #1bc5bd;
+    color: white;
+    border: none;
+    position:absolute;
+    bottom:2em;
+    margin:0em;
+    right:6em;
+    border-radius:5px;
+}
+
+/*--------------------------- When clicked on Cancel subscription */
+
+.cancel{
+    width: 25em;
+    height: 30em;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    left:12em;
+    top: 1em;
+
+}
+.cancel p {
+    position: relative;
+    left: .4em;
+    margin-top: .5em;
+}
+
+.cancel h3 {
+    margin-bottom: 0em;
+}
+
+.payment-cancel-threeBox{
+    display: flex;
+    width: 19em;
+    height: 6em;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 3em;
+
+}
+
+.payment-cancel-threeBox div{
+    background-color: #0db2f2;
+    color: white;
+    border-radius: 10px;
+    width: 6em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.payment-cancel-threeBox p{
+    position: relative;
+    left:.2em;
+    margin: 0;
+    bottom: .7em;
+}
+
+.cancel h4 {
+    margin-bottom: 0;
+}
+
+.cancel button{
+    background-color: white;
+    width:8em;
+    border-radius: 5px;
+    color: #516684;
+    border:1px solid #516684;
+}
+
+/* Hidden divs */
+
+.hidden  {
+    display:none;
+}
+
+.ab{
+    display:none;
+}
+
+.bor{
+    display:none;
+}
+
+#margin{
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+/* The second page after cancleling the subscription */
+#anotherPage{
+    width:100vw;
+    height: 97vh;
+    position: relative;
+    display: flex;
+    display: none;
+    flex-direction: row;
+    top: -1.3em;
+    
+}
+
+#blue{
+    width: 30vw;
+    height: 100vh;
+    background-color: #005b96;
+}
+
+#message{
+
+    width: 40vw;
+    height: 40vh;
+}
+
+#message div {
+    width: 30vw;
+    margin: 0;
+    position: relative;
+    left:40em;
+    top:22em;
+    font-weight: bold;
+    
+}
+
+#message div h2 {
+    margin-bottom:0em;
+    position: relative;
+    right:1em;
+
+}
+
+#message div p{
+    color: #16699f;
+    margin-top: .2em;
+}
+
+#blue img{
+    position: absolute;
+    bottom: -1.3em;
+    margin: 0em;
+}
+

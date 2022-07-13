@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Make accaunt</title>
+</head>
+
+<body>
+    <header>
+        <div id="threeLines">
+            <div></div>
+            <div id="smaller"></div>
+            <div></div>
+        </div>
+        <div id="name">
+            <div>JD</div>
+            <p>John Doe</p>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <h3>Your account</h3>
+            <span>You can modify personal information here</span>
+            <div id="accInfo">
+                <div id="logo">
+                    <p>JD</p>
+                </div>
+                <div id="info">
+                    <p>John Doe</p>
+                    <span>johndoe@gmail.com <br>387 61 123 456</span>
+                </div>
+            </div>
+            <div id="explanationPersonal" class="expl">
+                <h6>Personal info</h6>
+                <div>
+                    <p>This is the personal info section of <br> your accaunt.
+                        Here you can easily <br> change your basic info. After you <br>
+                        finish updatingthis section please <br> click the save changes button.
+                    </p>
+                </div>
+            </div>
+            <div id="explanationCredit" class="hidden expl">
+                <h6>Your credit cards</h6>
+                <div>
+                    <p>Select a valid credit card for your <br> Balance account or add a new card
+                        <br> by clicking add new card and filling <br>
+                        out the required card information on <br> the left. New card can be selected. <br>
+                        after being added on the list below.
+                    </p>
+                </div>
+                <div class="fourContainers blue">
+                    <h5 >+ Add new card</h5>
+                </div>
+                <div id="whiteCard" class="fourContainers"><i class="fa fa-credit-card"></i>
+                    <h5> 1234 5678 9012 3456</h5> <i class="fa fa-check fa-sm"></i>
+                </div>
+                <div class="fourContainers lastTwo"><i class="fa fa-credit-card"></i>
+                    <h5> 1234 5678 9012 3456</h5>
+                    <div class="round"></div>
+                </div>
+                <div class="fourContainers lastTwo"><i class="fa fa-credit-card"></i>
+                    <h5> 1234 5678 9012 3456</h5>
+                    <div class="round"></div>
+                </div>
+
+            </div>
+            <div id="explanationPaymentPlan" class="hidden expl">
+                <h6>Payment plan</h6>
+                <div>
+                    <p>This is the personal info section of<br>your account. Here you can easily
+                        <br>change your basic info. After you <br>finish updating this section please<br>
+                        click the save change button.
+                    </p>
+                </div>
+            </div>
+            <div id="explanationBilling" class=" hidden expl">
+                <h6>Billing info</h6>
+                <div>
+                    <p>This is the personal info section of<br>your account. Here you can easily
+                        <br>change your basic info. After you <br>finish updating this section please<br>
+                        click the save change button.
+                    </p>
+                </div>
+            </div>
+            <h5 id="terms">Terms&Conditions | Privacy policy</h5>
+        </aside>
+        <section>
+            <div id="icons">
+                <div id="user">
+                    <i class="fa fa-user fa-2x"></i>
+                    <p>Personal info</p>
+                </div>
+                <div id="credit">
+                    <i class="fa fa-credit-card fa-2x"></i>
+                    <p id="creditcarddetails">Credit card details</p>
+                </div>
+                <div id="paymentIcon">
+                    <i class="fa fa-line-chart fa-2x"></i>
+                    <p>Paymant plan</p>
+                </div>
+                <div id="billingIcon">
+                    <i class="fa fa-paypal fa-2x"></i>
+                    <p id="billing">Billing</p>
+                </div>
+
+            </div>
+            <div class="personalInfo">
+                <section>
+                    <div>
+                        <h5>First Name</h5>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <h5>Email</h5>
+                        <input type="text">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h5>Last name</h5>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <h5>Mobile phone</h5>
+                        <input type="text">
+                    </div>
+                </section>
+                <section>
+                    <div>
+                        <h5>Password</h5>
+                        <input type="text">
+                    </div>
+                    <div>
+                        <h5>Confirm password</h5>
+                        <input type="text">
+                    </div>
+                </section>
+
+                <div id="spams">
+                    <span>At last one uppercase letter</span>
+                    <span>At last one lowercase letter</span>
+                    <span>At last one number</span>
+                    <span>At last one special character(i.e.!)</span>
+                    <span>At last eight characters long</span>
+                </div>
+            </div>
+            <div class="creditAndInfo ab">
+                <div>
+                    <h5>Card number</h5>
+                    <input type="text">
+                </div>
+                <div id="creditLastTwo">
+                    <div class="inputDiv">
+                        <h5>Expiration month</h5>
+                        <input class="small" type="text">
+                    </div>
+                    <div class="inputDiv">
+                        <h5>Expiration year</h5>
+                        <input class="small" type="text">
+                    </div>
+                </div>
+
+            </div>
+            <div class="paymentPlan ab">
+                <article>
+                    <i class="fa fa-file fa-3x"></i>
+                    <h3>Starter</h3>
+                    <div class="pay">
+                        <h3>$5</h3><span>/ per month</span>
+                    </div>
+                    <p>Up to 5 gateways</p>
+                    <p>Basic support</p>
+                    <p>Monthly updates</p>
+                    <p>First month free</p>
+                    <p>Cancles anytime</p>
+                    <button id="greenButton">Plan selected<i class="fa fa-check fa-sm inButton"></i></button>
+                    <button class="articleButtons">Cancel subscription</button>
+                </article>
+                <article>
+                    <i class="fa fa-desktop fa-3x"></i>
+                    <h3>Business</h3>
+                    <div class="pay">
+                        <h3>$10</h3><span>/ per month</span>
+                    </div>
+                    <p>Up to 10 gateways</p>
+                    <p>Basic support</p>
+                    <p>Monthly updates</p>
+                    <p>First month free</p>
+                    <p>Cancles anytime</p>
+                    <button class="articleButtons">Select plan</button>
+                    <div class="empty"></div>
+                </article>
+                <article>
+                    <i class="fa fa-globe fa-3x"></i>
+                    <h3>Enterprise</h3>
+                    <div class="pay">
+                        <h3>$15</h3><span>/ per month</span>
+                    </div>
+                    <p>Up to 15 gateways</p>
+                    <p>24/7 support</p>
+                    <p>Monthly updates</p>
+                    <p>First month free</p>
+                    <p>Cancles anytime</p>
+                    <button class="articleButtons">Select plan</button>
+                    <div class="empty"></div>
+                </article>
+            </div>
+            <div class="billingDiv ab">
+                <div id="billing-info">
+                    <h4>Billing infrormation</h4>
+                    <p>Overview of your credit card transactions</p>
+                    <table>
+                        <tr>
+                            <th class="left">Subscription plan</th>
+                            <th class="center">Amount paid</th>
+                            <th class="right">Paid at</th>
+                        </tr>
+                        <tr>
+                            <td class="left">Starter</td>
+                            <td class="center">3963 USD</td>
+                            <td class="right">01/21/2021 14:52:32</td>
+                        </tr>
+                        <tr>
+                            <td class="left">Business</td>
+                            <td class="center">2554 USD</td>
+                            <td class="right">01/24/2021 14:52:32</td>
+                        </tr>
+                        <tr>
+                            <td class="left">Enterprise</td>
+                            <td class="center">3547 USD</td>
+                            <td class="right">01/27/2012 14:52:32</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="cancel bor">
+                <div>
+                    <h3>We are sorry to see you go</h3>
+                    <p>Before you unsubcribe consider changing the paymant plan.<br>
+                       If you are uncertain which plan best suites your business do not <br>
+                       hesitate to contact our support and we will do out best to assist <br>
+                       in choosing the right plan for you.</p>
+                </div>
+                <div id="margin">
+                    <h4>OUR JURNEY SO FAR</h4>   
+                    <section class="payment-cancel-threeBox">
+                        <div>
+                            <h2>4</h2>
+                            <p>PROJECTS</p>
+                        </div>
+                        <div>
+                            <h2>3</h2>
+                            <p>GATEWAYS</p>
+                        </div>
+                        <div>
+                            <h2>$14K</h2>
+                            <p>PAYMENTS</p>
+                        </div>
+                    </section>
+                </div>
+                <div>
+                    <h3>Are you sure you want to unsubcribe?</h3>
+                    <p>If you cancel your subcribe you want be able to use any of the  <br>
+                       platform features and your payments will be discontinued.</p>
+                       <div>
+                        <button id="cancelSub">Cancel</button>
+                        <button id="confirmSub">Confirm</button>
+                       </div>
+                </div>
+               
+
+            </div>
+            <button id="save">Save changes</button>
+            <h4 id="version">Version 1.0.2</h4>
+        </section>
+
+    </main>
+    <section id="anotherPage">
+        <div id="blue">
+            <img src="back.png" alt="">
+            <div id="message">
+                <div>
+                    <h2>You have cancelled your subscription</h2>
+                    <p>If you wish to continue using our platform please renew your subscription</p>
+                </div>
+        </div>
+        
+            
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
