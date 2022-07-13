@@ -1,4 +1,6 @@
 # Bank-accaunt--frontend-test
+The page : https://frontentd-test-make-account.netlify.app/
+
 This was a junior frontend developer test in a company. Made it just for practice. When I finished I realised the code was unnesessery big, but it was to late to go back :D
 
 It was supposed to look like this : 
